@@ -630,7 +630,7 @@ img {
 }
 
 .portfolio__img{
-    width: 265px;
+    width: 215px;
     margin-top: var(--mb-1);
     border-radius: .5rem;
     justify-self: center;
@@ -660,11 +660,11 @@ img {
 }
 
 .swiper-button-next{
-    right: -2rem;
+    right: -1rem;
 }
 
 .swiper-button-prev{
-    left: -2rem;
+    left: -1rem;
 }
 
 /* FOOTER */

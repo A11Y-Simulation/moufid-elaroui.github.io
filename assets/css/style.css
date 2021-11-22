@@ -81,15 +81,17 @@ body.dark-theme {
 
 /* LIEN ÉVITEMENT */
 
-.skip-link{
-    
+.skip-link {
+
     font-weight: var(--font-semi-bold);
     margin-right: auto;
     margin-left: var(--mb-3);
 }
-.link-arrow{
+
+.link-arrow {
     color: var(--first-color);
 }
+
 /* BOUTON THEME */
 .nav__btns {
     display: flex;
@@ -121,6 +123,8 @@ html {
 }
 
 body {
+    /* position: relative;
+    height: 100%; */
     margin: 0 0 var(--header-height) 0;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
@@ -605,6 +609,51 @@ img {
     color: red;
 } */
 
+/* PROJETS */
+.portfolio__container{
+    overflow: initial;
+}
+
+.portfolio__content{
+    padding: 0 1.5rem;
+}
+
+.portfolio__title{
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-0-5);
+}
+
+.portfolio__description{
+    margin-bottom: var(--mb-0-75);
+}
+
+
+
+/**** BOOTSTRAP PROJET CARROUSEL ****/
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    display: none;
+}
+
+.portfolio-icon{
+    font-size: 3rem;
+    color: var(--first-color);
+}
+
+.carousel-button-left{
+    padding-right: 15rem;
+}
+.carousel-button-right{
+    padding-left: 15rem;
+}
+.carousel-button-left:hover,
+.carousel-button-right:hover{
+    color: var(--first-color-alt);
+}
+
+
+
 /* FOOTER */
 
 .footer {
@@ -675,7 +724,7 @@ img {
     .qualification__data {
         gap: .5rem;
     }
-    
+
 }
 
 

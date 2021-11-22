@@ -660,11 +660,11 @@ img {
 }
 
 .swiper-button-next{
-    right: -1rem;
+    right: -2rem;
 }
 
 .swiper-button-prev{
-    left: -1rem;
+    left: -2rem;
 }
 
 /* FOOTER */

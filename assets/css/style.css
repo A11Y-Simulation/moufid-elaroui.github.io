@@ -659,6 +659,14 @@ img {
     background-color: var(--first-color);
 }
 
+.swiper-button-next{
+    right: -1rem;
+}
+
+.swiper-button-prev{
+    left: -1rem;
+}
+
 /* FOOTER */
 
 .footer {

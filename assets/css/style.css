@@ -642,10 +642,10 @@ img {
 }
 
 .carousel-button-left{
-    padding-right: 15rem;
+    padding-right: 10rem;
 }
 .carousel-button-right{
-    padding-left: 15rem;
+    padding-left: 10rem;
 }
 .carousel-button-left:hover,
 .carousel-button-right:hover{

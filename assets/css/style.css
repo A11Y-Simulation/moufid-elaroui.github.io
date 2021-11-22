@@ -10,7 +10,7 @@
 
     /* couleur favorite */
 
-    --hue-color: 142;
+    --hue-color: 188;
 
     /* couleurs HSL */
     --first-color: hsl(var(--hue-color), 69%, 61%);

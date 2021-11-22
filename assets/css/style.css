@@ -637,20 +637,31 @@ img {
 }
 
 .portfolio-icon{
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: var(--first-color);
 }
 
 .carousel-button-left{
-    padding-right: 10rem;
+    padding-right: 2rem;
 }
 .carousel-button-right{
-    padding-left: 10rem;
+    padding-left:2rem;
 }
 .carousel-button-left:hover,
 .carousel-button-right:hover{
     color: var(--first-color-alt);
 }
+
+.carousel-img{
+    max-width: 80%;
+    min-height: 120px;
+    margin-right: auto;
+    margin-left: auto;
+object-position: 50% 50%;
+    object-fit: scale-down;
+}
+
+
 
 
 

@@ -123,8 +123,6 @@ html {
 }
 
 body {
-    /* position: relative;
-    height: 100%; */
     margin: 0 0 var(--header-height) 0;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
@@ -605,9 +603,6 @@ img {
     display: block;
 }
 
-/* .qualification__button.qualification__active{
-    color: red;
-} */
 
 /* PROJETS */
 .portfolio__container{
@@ -616,6 +611,8 @@ img {
 
 .portfolio__content{
     padding: 0 1.5rem;
+   
+
 }
 
 .portfolio__title{
@@ -627,47 +624,40 @@ img {
     margin-bottom: var(--mb-0-75);
 }
 
-
-
-/**** BOOTSTRAP PROJET CARROUSEL ****/
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon{
-    display: none;
-}
-
 .portfolio-icon{
     font-size: 3.5rem;
     color: var(--first-color);
 }
 
-.carousel-button-left{
-    padding-right: 2rem;
-}
-.carousel-button-right{
-    padding-left:2rem;
-}
-.carousel-button-left:hover,
-.carousel-button-right:hover{
-    color: var(--first-color-alt);
+.portfolio__img{
+    width: 265px;
+    margin-top: var(--mb-1);
+    border-radius: .5rem;
+    justify-self: center;
+    box-shadow: 1px 1px 4px 1px var(--first-color);
 }
 
-.carousel-img{
-    max-width: 80%;
-    min-height: 120px;
-    margin-right: auto;
-    margin-left: auto;
-object-position: 50% 50%;
-    object-fit: scale-down;
+.portfolio__button:hover .button__icon{
+    transform: translateX(.25rem);
 }
 
-.carousel{
-    max-width: 330px;
-    margin-right: auto;
-    margin-left: auto;
+.swiper-button-prev::after,
+.swiper-button-next::after{
+ content: '';
 }
 
+.swiper-portfolio-icon{
+    font-size: 2rem;
+    color: var(--first-color);
+}
 
+.swiper-pagination{
+    top : 25rem;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: var(--first-color);
+}
 
 /* FOOTER */
 
@@ -766,9 +756,7 @@ object-position: 50% 50%;
         grid-template-columns: .6fr;
         justify-content: center;
     }
-    .carousel{
-        max-width: 500px;
-    }
+ 
 }
 
 @media screen and (min-width: 768px) {
@@ -877,9 +865,13 @@ object-position: 50% 50%;
         margin-top: 5rem;
     }
 
-    .carousel{
-        max-width: initial;
+    .portfolio__img{
+        width: 350px;
     }
+    .swiper-pagination{
+        top : 27rem;
+    }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -900,6 +892,14 @@ object-position: 50% 50%;
 
     .carousel{
         max-width: initial;
+    }
+
+    .portfolio__img{
+        width: 550px;
+    }
+
+    .swiper-pagination{
+        top : 36rem;
     }
 
 }

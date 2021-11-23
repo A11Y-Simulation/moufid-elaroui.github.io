@@ -505,6 +505,10 @@ img {
     width: 60%;
 }
 
+.skills__sass {
+    width: 80%;
+}
+
 .skills__js {
     width: 40%;
 }
@@ -602,6 +606,10 @@ img {
 .qualification__active[data-content] {
     display: block;
 }
+
+/* .qualification__button.qualification__active {
+    color: var(--first-color);
+} */
 
 
 /* PROJETS */
@@ -908,6 +916,9 @@ img {
 
     .swiper-pagination{
         top : 36rem;
+    }
+    .skip-link{
+      margin-left: 18%;
     }
 
 }

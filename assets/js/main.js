@@ -65,10 +65,11 @@ tabs.forEach((tab) => {
 
     target.classList.add("qualification__active");
 
-    // tab.forEach(tab =>{
-    //   tab.classlist.remove('qualification__active');
-    // });
-    // tab.classList.add('qualification__active');
+    tabs.forEach((tab) => {
+    
+      tab.classlist.remove("qualification__active");
+    });
+    tab.classList.add("qualification__active");
   });
 });
 
@@ -125,6 +126,3 @@ let swiper = new Swiper(".mySwiper", {
   // mousewheel: true,
   // keyboard: true,
 });
-
-
-

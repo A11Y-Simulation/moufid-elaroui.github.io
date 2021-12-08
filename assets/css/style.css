@@ -581,6 +581,7 @@ img {
 .qualification__calendar {
     font-size: var(--smaller-font-size);
     color: var(--text-color-light);
+    margin-bottom: var(--mb-2);
 }
 
 .qualification__rounder {
@@ -606,6 +607,7 @@ img {
 .qualification__active[data-content] {
     display: block;
 }
+
 
 /* .qualification__button.qualification__active {
     color: var(--first-color);

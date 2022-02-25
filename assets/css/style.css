@@ -229,7 +229,7 @@ img {
 
 .home__blob-img {
     width                       : 200px;
-    height                      : 370px;
+   transform: translateY(1.8rem);
 }
 
 .home__data {
